@@ -1,0 +1,13 @@
+.pagetitle {
+  display: flex;
+  margin: 2rem 5rem;
+  font-size: 48px;
+}
+
+.productwrapper {
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}

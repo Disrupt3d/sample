@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  width: 100vw;
+}
+.navbar-layout {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-layout a {
+  padding: 0rem 1rem;
+}
+
+.logo {
+  margin-left: -15px;
+  width: 30vw;
+  min-width: 100px;
+  max-width: 200px;
+}
+.menuitems {
+  display: flex;
+  justify-content: flex-end;
+  width: 70vw;
+  margin-right: 2rem;
+}
+
+.link {
+  color: black;
+}
+.link:hover {
+  color: rgb(255, 140, 0);
+  transform: scale(1.15);
+  transition: 0.5s ease-in-out;
+}
